@@ -18,13 +18,13 @@ node scripts/check_vnetraffic.mjs --plate <BIENSO> --type <oto|xemay|xemaydien> 
 Ví dụ:
 
 ```bash
-node scripts/check_vnetraffic.mjs --plate 51K55173 --type oto
+node scripts/check_vnetraffic.mjs --plate 51K12345 --type oto
 ```
 
 Quy tắc nhập biển số:
 - Chuẩn hóa về chữ hoa.
 - Bỏ dấu `-` và `.` trước khi gửi API.
-- Ví dụ: `51K-551.73` -> `51K55173`.
+- Ví dụ: `51K-123.45` -> `51K12345`.
 
 ## Diễn giải kết quả
 
